@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+}
+.app-wrap{
+	background-color: #9c27b0;
+	width:100%;
+	text-align: right;
+	font-size: 40px;
+    /* border: 8px solid #808080; */
+}
+
+.parent-flex {
+	flex-direction:row-reverse;
+	display: -webkit-flex;
+	height: 300px;
+}
+.item-flex {
+	height:25px;
+	border: 1px solid black;
+	margin-right: 3px;
+}
+.first-flex {
+	flex:1;
+	background-color: red;
+}
+.second-flex {
+	flex:2;
+	background-color: #00a1ff;
+}
+.three-flex {
+	flex:3;
+	background-color:green;
+}
+
+.middle {
+	width: 150px;
+	height: 200px;
+	background-color: #c0c0c0;
+	justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+}
